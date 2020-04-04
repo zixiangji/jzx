@@ -1,6 +1,6 @@
-package com.sdsc.basic.factory.simple;
+package com.sdsc.basic.designPatterns.simpleFactoryPattern;
 
-public class SimpleFactoryPattern {
+public class SimpleFactoryPatternDemo {
 
     public static void main(String[] args) {
         Vehicle vehicle = Factory.produce("bus");

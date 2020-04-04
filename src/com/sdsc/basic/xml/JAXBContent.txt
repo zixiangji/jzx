@@ -1,0 +1,27 @@
+
+JAXBContext类是应用的入口，用于管理xml/java绑定信息 
+Marshaller接口（装配器），将java对象序列化为xml数据
+Unmarshaller接口，将xml数据反序列化为java对象
+
+@XmlRootElement 用于类级别的注解，对应xml的跟元素。通过name属性定义这个根节点的名称。
+   @XmlRootElement(name = "book")
+
+
+@XmlType(propOrder = { "id", "name", "age","book"})指定成员变量(必须是变量名词)输出顺序。
+对于@XmlElementWrapper标注的属性，不能出现在@XmlType的propOrder列表中。
+对于所有@XmlElement标注过的属性，必须出现在@XmlType的propOrder列表中。
+
+@XmlAccessorType，定义映射这个类中的何种类型都需要映射到xml。(如果不存在@XmlAccessorType,默认使用XmlAccessType.PUBLIC_MEMBER注解)
+参数XmlAccessType.FIELD: java对象中的所有成员变量。
+
+　　XmlAccessType.PROPERTY：java对象中所有通过getter/setter方式访问的成员变量。
+
+　　XmlAccessType.PUBLIC_MEMBER：java对象中所有的public访问权限的成员变量和通过getter/setter方式访问的成员变量。
+
+　　XmlAccessType.NONE: java对象的所有属性都不映射为xml的元素。
+
+@XmlAttribute	用于把java对象的属性映射为xml的属性,并可通过name属性为生成的xml属性指定别名(指定属性)
+
+@XmlElement		指定一个字段或get/set方法映射到xml的节点。通过name属性定义这个根节点的名称(这个是名称是xml中的<名称></名称>(这是一个元素))。
+
+@XmlElementWrapper 为数组或集合定义一个父节点。通过name属性定义这个父节点的名称。
