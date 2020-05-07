@@ -1,4 +1,4 @@
-package com.sdsc.basic.designPatterns.simpleFactoryPattern;
+package com.jzx.basic.designPatterns.simpleFactoryPattern;
 
 public class SimpleFactoryPatternDemo {
 

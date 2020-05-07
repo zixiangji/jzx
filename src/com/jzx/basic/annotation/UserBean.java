@@ -1,4 +1,4 @@
-package com.sdsc.basic.annotation;
+package com.jzx.basic.annotation;
 @Table("user")
 public class UserBean {
     @Column("id")

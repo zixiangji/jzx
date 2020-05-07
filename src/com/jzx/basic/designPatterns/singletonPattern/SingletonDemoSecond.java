@@ -1,4 +1,4 @@
-package com.sdsc.basic.designPatterns.singletonPattern;
+package com.jzx.basic.designPatterns.singletonPattern;
 
 /**
  * 懒汉模式(有延迟加载的意思)--双重校验锁（指令重排问题)

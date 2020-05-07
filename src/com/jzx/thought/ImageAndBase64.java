@@ -1,4 +1,4 @@
-package com.sdsc.myThought;
+package com.jzx.thought;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;

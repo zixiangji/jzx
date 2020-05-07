@@ -1,4 +1,4 @@
-package com.sdsc.basic.designPatterns.singletonPattern;
+package com.jzx.basic.designPatterns.singletonPattern;
 
 /**
  * 单例模式(确保一个类只有一个实例，而且自动实例化并向整个系统提供这个实例。它提供全局访问的方法)

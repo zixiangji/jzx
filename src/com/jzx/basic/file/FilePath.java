@@ -1,4 +1,7 @@
-package com.sdsc.basic.file;
+package com.jzx.basic.file;
+
+import java.io.InputStream;
+import java.util.Properties;
 
 public class FilePath {
     /**
@@ -14,22 +17,23 @@ public class FilePath {
         return System.getProperty("user.dir") + "/bin";
     }
 
-    public static String getPackgePath() {
-        String thisPackPath = FilePath.class.getResource("").toString();
-        int m = thisPackPath.indexOf("/");
-        thisPackPath = thisPackPath.substring(m + 1);
-        return thisPackPath;
-    }
+    private static void readCurrent() {
+        try {
+            InputStream in = FilePath.class.getResourceAsStream("/a.properties");
+            Properties properties = new Properties();
+            properties.load(in);
 
-    //
-    public static String getClassLoaderPath() {
-        String path = FilePath.class.getClassLoader().getResource("").toString();
-        return path;
+            System.out.println(properties.getProperty("name"));
+            System.out.println(properties.getProperty("password"));
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public static void main(String[] args) {
+        readCurrent();
         System.out.println(getProjectPath());
-        System.out.println(getPackgePath());
-        System.out.println(getClassLoaderPath());
+        System.out.println(getSrcPathAgerRun());
     }
 }

@@ -1,4 +1,4 @@
-package com.sdsc.basic.designPatterns.singletonPattern;
+package com.jzx.basic.designPatterns.singletonPattern;
 
 /**
  * 使用静态内部类静态对象只加载一次来实现单例

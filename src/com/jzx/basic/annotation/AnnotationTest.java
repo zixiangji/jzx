@@ -1,4 +1,4 @@
-package com.sdsc.basic.annotation;
+package com.jzx.basic.annotation;
 
 import java.lang.reflect.Field;
 

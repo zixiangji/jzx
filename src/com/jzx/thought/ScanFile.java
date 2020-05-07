@@ -1,4 +1,4 @@
-package com.sdsc.myThought;
+package com.jzx.thought;
 
 import java.io.File;
 

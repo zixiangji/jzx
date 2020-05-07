@@ -1,4 +1,4 @@
-package com.sdsc.basic.designPatterns.builderPattern;
+package com.jzx.basic.designPatterns.builderPattern;
 
 import java.util.ArrayList;
 import java.util.List;

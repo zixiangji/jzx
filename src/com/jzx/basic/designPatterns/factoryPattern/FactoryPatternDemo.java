@@ -1,4 +1,4 @@
-package com.sdsc.basic.designPatterns.factoryPattern;
+package com.jzx.basic.designPatterns.factoryPattern;
 
 /**
  * 工厂模式（Factory Pattern）是 Java 中最常用的设计模式之一。

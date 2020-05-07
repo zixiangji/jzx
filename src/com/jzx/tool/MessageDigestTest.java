@@ -1,4 +1,4 @@
-package com.sdsc.tool;
+package com.jzx.tool;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;
@@ -16,7 +16,7 @@ public class MessageDigestTest {
     }
 
     public static String stringToMD5(String plainText) {
-        byte[] secretBytes = null;
+        byte[] secretBytes;
         try {
             secretBytes = MD5.digest(
                     plainText.getBytes());

@@ -1,4 +1,4 @@
-package com.sdsc.main;
+package com.jzx.main;
 
 public class StringDemo {
     public static void main(String[] args) {

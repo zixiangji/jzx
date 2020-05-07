@@ -1,4 +1,4 @@
-package com.sdsc.basic.designPatterns.builderPattern;
+package com.jzx.basic.designPatterns.builderPattern;
 
 public class BuilderPatternDemo {
     public static void main(String[] args) {

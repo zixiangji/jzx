@@ -1,4 +1,4 @@
-package com.sdsc.tool;
+package com.jzx.tool;
 
 import net.coobird.thumbnailator.Thumbnails;
 import net.coobird.thumbnailator.geometry.Positions;

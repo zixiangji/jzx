@@ -1,4 +1,4 @@
-package com.sdsc.myThought;
+package com.jzx.thought;
 
 import com.sun.image.codec.jpeg.JPEGCodec;
 import com.sun.image.codec.jpeg.JPEGImageEncoder;

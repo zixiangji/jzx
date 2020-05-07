@@ -1,4 +1,4 @@
-package com.sdsc.basic.designPatterns.builderPattern;
+package com.jzx.basic.designPatterns.builderPattern;
 
 public class MealBuilder {
     public Meal prepareVegMeal (){

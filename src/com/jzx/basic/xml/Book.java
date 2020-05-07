@@ -1,4 +1,4 @@
-package com.sdsc.basic.xml;
+package com.jzx.basic.xml;
 
 import java.util.Date;
 

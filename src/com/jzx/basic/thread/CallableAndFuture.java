@@ -1,4 +1,4 @@
-package com.sdsc.basic.thread;
+package com.jzx.basic.thread;
 
 import java.util.ArrayList;
 import java.util.List;
