@@ -5,8 +5,8 @@ import java.nio.charset.StandardCharsets;
 
 public class GBKToUTF {
     public static void main(String[] args) throws IOException {
-        String srcFile = "/home/sdzw/下载/12316.txt";
-        String dstFile = "/home/sdzw/下载/12317.txt";
+        String srcFile = "./12316.txt";
+        String dstFile = "./12317.txt";
         gbkToUTF8(srcFile, dstFile);
     }
 

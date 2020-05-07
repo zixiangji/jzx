@@ -8,7 +8,7 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
 /**
- * 功能:遍历指定jar包中class文件并输出到文件中
+ * 功能:遍历指定jar包中class文件名并输出到文件中
  * 第一个参数输入:jar包或者需要搜索class的目录
  * 第二个参数输入:搜索信息输出文件
  */
