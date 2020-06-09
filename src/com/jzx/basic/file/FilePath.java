@@ -4,11 +4,6 @@ import java.io.InputStream;
 import java.util.Properties;
 
 public class FilePath {
-    /**
-     * current project path
-     *
-     * @return
-     */
     public static String getProjectPath() {
         return System.getProperty("user.dir") + "/";
     }

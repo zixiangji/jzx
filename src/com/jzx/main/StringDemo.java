@@ -131,6 +131,7 @@ public class StringDemo {
         String str4 = new String("aaa");
         System.out.println("===========test2============");
         System.out.println(str3 == str4);// false 可以看出用new的方式是生成不同的对象
+
     }
 
     /**

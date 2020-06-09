@@ -7,6 +7,9 @@ import javax.imageio.ImageIO;
 import java.io.File;
 import java.io.IOException;
 
+/**
+ * 图片压缩
+ */
 public class ThumbnailTest {
     public static void main(String[] args) throws IOException {
         // 样例展示 https://github.com/coobird/thumbnailator/wiki/Examples
