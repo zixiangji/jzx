@@ -8,7 +8,7 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * 图片压缩
+ * 使用开源工具进行图片处理
  */
 public class ThumbnailTest {
     public static void main(String[] args) throws IOException {
